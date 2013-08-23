@@ -3,7 +3,7 @@ class TemasController < ApplicationController
   # GET /temas.json
   def index
     @temas = Tema.all
-
+#comentario
     respond_to do |format|
       format.html # index.html.erb
       format.json { render json: @temas }
